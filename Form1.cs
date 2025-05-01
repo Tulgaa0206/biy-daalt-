@@ -45,7 +45,11 @@ namespace BD_visual_
         private void button1_Click(object sender, EventArgs e)
         {
             Form form2 = new Form2();
+<<<<<<< HEAD
+            form2.Show();              
+=======
             form2.Show();
+>>>>>>> a0951c417e9c4d90e973e79e3774409ee7586750
             this.Hide();
         }
     }
