@@ -41,5 +41,12 @@ namespace BD_visual_
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form form2 = new Form2();
+            form2.Show();              
+            this.Hide();
+        }
     }
 }
